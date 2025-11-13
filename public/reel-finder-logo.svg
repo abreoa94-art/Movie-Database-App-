@@ -1,0 +1,40 @@
+<svg width="260" height="60" viewBox="0 0 260 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background is transparent so it works on dark or light themes -->
+
+  <!-- Film reel icon -->
+  <g transform="translate(8, 8)">
+    <!-- Outer reel -->
+    <circle cx="22" cy="22" r="20" fill="#111827"></circle>
+    <circle cx="22" cy="22" r="18" fill="#1F2937"></circle>
+
+    <!-- Reel holes -->
+    <circle cx="22" cy="14" r="3" fill="#F9FAFB"></circle>
+    <circle cx="30" cy="22" r="3" fill="#F9FAFB"></circle>
+    <circle cx="22" cy="30" r="3" fill="#F9FAFB"></circle>
+    <circle cx="14" cy="22" r="3" fill="#F9FAFB"></circle>
+
+    <!-- Small highlight -->
+    <circle cx="30.5" cy="13.5" r="1.4" fill="#60A5FA" opacity="0.9"></circle>
+
+    <!-- Film strip tail -->
+    <rect x="40" y="18" width="18" height="8" rx="3" fill="#111827"></rect>
+    <rect x="41.5" y="19.5" width="15" height="5" rx="2" fill="#1F2937"></rect>
+  </g>
+
+  <!-- Text: ReelFinder -->
+  <g transform="translate(80, 18)">
+    <!-- "Reel" -->
+    <text x="0" y="18" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="700" fill="#F9FAFB">
+      Reel
+    </text>
+
+    <!-- "Finder" accent color -->
+    <text x="62" y="18" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="700" fill="#60A5FA">
+      Finder
+    </text>
+
+    <!-- Underline accent -->
+    <rect x="0" y="24" width="118" height="3" rx="1.5" fill="#1F2937"></rect>
+    <rect x="0" y="24" width="62" height="3" rx="1.5" fill="#60A5FA"></rect>
+  </g>
+</svg>

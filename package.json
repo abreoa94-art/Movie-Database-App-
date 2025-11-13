@@ -13,6 +13,7 @@
     "appwrite": "^21.4.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^7.9.5",
     "react-use": "^17.5.0",
     "tailwind": "^4.0.0"
   },
