@@ -178,7 +178,7 @@ const MainPage = () => {
                                 </select>
                             </div>
 
-                            <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+                            <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap 8 justify-center mx-auto max-w-7xl">
                                 {sortedMovies.slice(0, visibleCount).map((movie) => (
                                     <MovieCard key={movie.id} movie={movie} />
                                 ))}
