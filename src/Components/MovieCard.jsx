@@ -7,7 +7,7 @@ const MovieCard = ({movie: {title, vote_average, poster_path, release_date, orig
             <li className='bg-white/5 p-3 rounded-xl shadow-md hover:scale-105 transition' >
 
             <img src={poster_path ? `https://image.tmdb.org/t/p/w500/${poster_path}` : '/No-Poster.png'}
-                 className=' w-full h-80 object-cover rounded-lg' />
+                 className=' w-full h-[300px] object-contain rounded-lg' />
             </li>
             <div className="mt-4">
                 <h3>{title}</h3>
